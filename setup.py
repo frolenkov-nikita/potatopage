@@ -6,7 +6,7 @@ readme = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
 setup(
     name     = 'potatopage',
-    version  = '0.0.1',  # also update doc/conf.py:version
+    version  = '0.1',  # also update doc/conf.py:version
     packages = ['potatopage'],
     requires = ['python (>= 2.5)'],
     description  = 'Unified paginator',
